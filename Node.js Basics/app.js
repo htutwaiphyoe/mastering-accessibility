@@ -15,7 +15,19 @@ const server = http.createServer((req, res) => {
         return res.end();
     }
     if (url === "/message" && method === "POST") {
-        fs.writeFileSync("message.txt", "Loream ipsum");
+        const body = [];
+        req.on("data", (chunk) => {
+            console.log(chunk);
+            body.push(chunk);
+        });
+
+        req.on("end", () => {
+            const parsedBody = Buffer.concat(body).toString();
+            console.log(parsedBody);
+            const message = parsedBody.split("=")[1];
+            fs.appendFileSync("message.txt", message);
+        });
+
         res.writeHead(302, {
             Location: "/",
         });
