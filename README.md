@@ -3,7 +3,7 @@
 ## Table of contents
 
 - How Node.js works internally
-    - Event loop
-    - Event-driven architecture
-    - Streams
-    - Modules
+  - Event loop
+  - Event-driven architecture
+  - Streams
+  - Module
