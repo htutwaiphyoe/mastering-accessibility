@@ -1,28 +1,24 @@
 const fs = require("fs");
-const requestHandler = (req, res) => {
+module.exports.handler = (req, res) => {
     const url = req.url;
     const method = req.method;
     if (url === "/") {
         res.setHeader("Content-Type", "text/html");
-        res.write("<html>");
-        res.write("<head><title>Form</title></head>");
+        res.write("<!DOCTYPE html><html><head><title>Nodejs</title></head>");
         res.write(
-            "<body><form action='/message' method='POST'><input type='text' name='message'/><button type='submit'>Send</button></form></body>"
+            "<body><form action='/message' method='POST'><input type='text' name='message'/><button type='submit'>Send</button></form></body></html>"
         );
-        res.write("</html>");
-        //   process.exit();
         return res.end();
-    }
-    if (url === "/message" && method === "POST") {
+    } else if (url === "/message" && method === "POST") {
         const body = [];
         req.on("data", (chunk) => {
+            // body.push(chunk.toString().split("=")[1]);
             body.push(chunk);
         });
-
         return req.on("end", () => {
-            const parsedBody = Buffer.concat(body).toString();
-            const message = parsedBody.split("=")[1];
-            fs.appendFile("message.txt", message, "utf-8", (err) => {
+            const bodyStr = Buffer.concat(body).toString();
+            const message = bodyStr.split("=")[1];
+            fs.writeFile(`${__dirname}/message.txt`, message, "utf-8", (err) => {
                 res.writeHead(302, {
                     Location: "/",
                 });
@@ -31,21 +27,7 @@ const requestHandler = (req, res) => {
         });
     }
     res.setHeader("Content-Type", "text/html");
-    res.write("<html>");
-    res.write("<head><title>Message</title></head>");
-    res.write("<body><h1>Hello, world!</h1></body>");
-    res.write("</html>");
+    res.write("<!DOCTYPE html><html><head><title>Nodejs</title></head>");
+    res.write("<body><h1>Hello, world!</h1></body></html>");
+    res.end();
 };
-
-module.exports = requestHandler;
-
-// module.exports = {
-//     handler: requestHandler,
-//     test: "Some text",
-// };
-
-// module.exports.handler = requestHandler;
-// module.exports.test = "Some text";
-
-// exports.handler = requestHandler;
-// exports.test = "Some text";
