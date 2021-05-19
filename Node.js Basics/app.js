@@ -1,7 +1,9 @@
 const http = require("http");
-const routes = require("./routes");
+
 const server = http.createServer((req, res) => {
-    routes.handler(req, res);
+    console.log("ok");
 });
 
-server.listen(8000);
+server.listen("8000", "127.0.0.1", () => {
+    console.log("Server listening on port 8000");
+});
