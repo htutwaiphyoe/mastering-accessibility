@@ -1,8 +1,9 @@
 # custom
 basic/
 how-nodejs-works/
-
-
+*.zip
+complete-node-bootcamp-master/
+1-*/
 # Logs
 logs
 *.log
