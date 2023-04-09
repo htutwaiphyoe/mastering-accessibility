@@ -39,3 +39,17 @@ Reasons developers should learn accessibility
 5. Reach a larger audience
 6. Impactful
 7. Makes you a specialist
+
+## 03. Ways people use the web
+
+keyboard only => is the website accessible keyboard only?
+
+head wand => less keystroke to do something
+
+mouse stick => popular with tablet
+
+single switch => one button for virtual keyboard
+
+screen reader => nonvisual way of interacting the web, audio format for every content
+
+there is no api to detect whether user is using with screen reader or assistant technology or not
