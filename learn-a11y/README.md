@@ -53,3 +53,11 @@ single switch => one button for virtual keyboard
 screen reader => nonvisual way of interacting the web, audio format for every content
 
 there is no api to detect whether user is using with screen reader or assistant technology or not
+
+## 04. Curb Cut Effect
+
+The Curb-Cut Effect, in its essence, asserts that an investment in one group can cascade out and up and be a substantial investment in the broader well-being of a nation -- one whose policies and practices create an equitable economy, a healthy community of opportunity, and just society.
+
+design consideration for disabled people, building with accessibility in mind and accessibility testing
+
+For SEO and accessibility, semantic html is essential but for image ALT text is different. For SEO, keyword for ranking due to crawler and For accessibility, descriptive text
