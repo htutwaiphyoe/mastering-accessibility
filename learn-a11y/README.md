@@ -61,3 +61,30 @@ The Curb-Cut Effect, in its essence, asserts that an investment in one group can
 design consideration for disabled people, building with accessibility in mind and accessibility testing
 
 For SEO and accessibility, semantic html is essential but for image ALT text is different. For SEO, keyword for ranking due to crawler and For accessibility, descriptive text
+
+## 05. Accessibility standards
+
+Web Content Accessibility Guidelines (WCAG) => specification of Accessibility
+WCAG specifies three different conformance levels they are:
+A (lowest)
+AA (mid range)
+and AAA (highest)
+
+Level A sets a minimum level of accessibility and does not achieve broad accessibility for many situations. For this reason, UC (University of California) recommends AA conformance for all Web-based information.
+
+[https://www.w3.org/WAI/standards-guidelines/wcag/](https://www.w3.org/WAI/standards-guidelines/wcag/)
+[https://www.w3.org/WAI/WCAG21/Understanding/conformance#levels](https://www.w3.org/WAI/WCAG21/Understanding/conformance#levels)
+
+WebAIM [https://webaim.org/](https://webaim.org/)
+WebAIM provides a handy checklist with their recommendations.
+
+[https://webaim.org/standards/wcag/checklist](https://webaim.org/standards/wcag/checklist)
+
+WebAIM specifies that accessible websites should be:
+
+Perceivable
+Operable
+Understandable
+Robust
+
+aria => Accessible Rich Internet Application, helper attributes for accessibility in html tag, default html has limitation for accessibility
