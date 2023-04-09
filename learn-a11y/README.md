@@ -88,3 +88,25 @@ Understandable
 Robust
 
 aria => Accessible Rich Internet Application, helper attributes for accessibility in html tag, default html has limitation for accessibility
+
+## 06. Screen Readers
+
+Screen readers convert digital text into synthesized speech. They empower users to hear content and navigate with the keyboard. The technology helps people who are blind or who have low vision to use information technology with the same level of independence and privacy as anyone else.
+
+What all they let you do
+Read all content
+Display a list of links
+Display a list of headings
+
+There are different kind of screen readers for different platforms. But most of the accessibility are work well with all of them. There can be old version of screen reader problems. There is no screen reader specifications depends on company
+
+Mac has built-in screen reader
+
+Voiceover for Mac
+How to enable VoiceOver for Mac
+
+System Preferences
+Accessibility
+VoiceOver
+Enable VoiceOver
+cmd + f5
