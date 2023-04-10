@@ -110,3 +110,17 @@ Accessibility
 VoiceOver
 Enable VoiceOver
 cmd + f5
+
+## 07. Alternative Text & Captions
+
+by default, screen reader image => read file name if there is no alt text
+
+the problem is file names are not meaningful.
+
+by adding alt text, screen readers will read alt text instead of file name
+
+to skip reading file, set alt attribute to empty
+
+alt text is useful for SEO to rank the website with keyword but it is bad accessibility experience. should be meaningful name for image
+
+captioning service must be added to video content for accessibility
