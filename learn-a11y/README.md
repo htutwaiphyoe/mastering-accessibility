@@ -162,3 +162,28 @@ Other's provide a lot of built-in functionality such as:
 nested headings are good for accessibility, option + control + U
 
 css classes won't affect accessibility
+
+## 11. Accessible Form Field Labels
+
+label (for) + input (id)
+
+if the input is a child of the label, for is not required.
+
+The label tag can only works with "labelable" elements. Those include:
+
+<button>
+<input>
+<keygen>
+<meter>
+<output>
+<progress>
+<select>
+<textarea>
+
+for other elements, use aria-label
+
+label can be visually hidden
+
+aria-label will be read by screen reader when element is focus.
+
+provide keyboard shortcut with key binding for screen readers
