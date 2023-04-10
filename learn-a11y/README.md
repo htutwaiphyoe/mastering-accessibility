@@ -130,3 +130,9 @@ captioning service must be added to video or audio content for accessibility
 dynamic alt text for user uploaded image with machine learning or custom alt text for uploaded image
 
 screen reader skips css background images
+
+## 09. Screen Reader Solution
+
+[https://learn-a11y.netlify.app/exercises/1.html](https://learn-a11y.netlify.app/exercises/1.html)
+
+labeled form fields are essential for accessibility
