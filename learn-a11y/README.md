@@ -123,4 +123,10 @@ to skip reading file, set alt attribute to empty
 
 alt text is useful for SEO to rank the website with keyword but it is bad accessibility experience. should be meaningful name for image
 
-captioning service must be added to video content for accessibility
+captioning service must be added to video or audio content for accessibility
+
+## 08. Screen Reader Exercise
+
+dynamic alt text for user uploaded image with machine learning or custom alt text for uploaded image
+
+screen reader skips css background images
