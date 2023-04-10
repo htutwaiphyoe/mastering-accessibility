@@ -136,3 +136,29 @@ screen reader skips css background images
 [https://learn-a11y.netlify.app/exercises/1.html](https://learn-a11y.netlify.app/exercises/1.html)
 
 labeled form fields are essential for accessibility
+
+## 10. Accessible HTML
+
+[https://learn-a11y.netlify.app/accessible-html/index.html](https://learn-a11y.netlify.app/accessible-html/index.html)
+
+use semantic elements in HTML
+
+div soup means using div for all elements
+
+Some elements have semantic meaning but no special functionality. Examples are:
+
+<aside>
+<footer>
+<header>
+
+good for SEO score, website health score
+
+Other's provide a lot of built-in functionality such as:
+
+<button>
+<input>
+<textarea>
+
+nested headings are good for accessibility, option + control + U
+
+css classes won't affect accessibility
