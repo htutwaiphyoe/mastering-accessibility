@@ -199,3 +199,7 @@ Power of semantic elements and flexibility functionality to any element with ari
 
 <div aria-label="Alert the word hello" tabindex="0" role="button" onclick="alert('hello')" onkeyup="alert('hello')">Click me!</div>
 ```
+
+## 13. Accessibility Problems Exercise
+
+[https://learn-a11y.netlify.app/exercises/2.html](https://learn-a11y.netlify.app/exercises/2.html)
