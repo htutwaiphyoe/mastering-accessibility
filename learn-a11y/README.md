@@ -217,3 +217,48 @@ aria-label for no content link
 button is for interactivity on the page
 
 link is for going different page
+
+## 15. ARIA
+
+[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)
+
+[https://www.w3.org/TR/html-aria/#aria-table](https://www.w3.org/TR/html-aria/#aria-table)
+
+Earlier, we learned about the <label> tag in HTML and how it can be used to label certain form elements.
+
+The ARIA spec provides us with great tools for labelling and describing any element we want. They are:
+
+aria-label => inline
+aria-labelledby => separate label that combine with id
+aria-describedby
+
+A label provides essential information about an object, while a description provides extended information that the user might need.
+
+multiple labels read by FIFO
+
+Roles, States and Properties
+ARIA also provides roles which can be applied to any element. Examples include:
+
+button
+checkbox
+tree
+banner
+aria-autocomplete
+aria-haspopup
+
+role => element type
+state => element state like checked
+properties => element properties like placeholder
+
+[https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques)
+
+aria can be selected by css selectors
+
+```css
+.dropdown[aria-expanded="false"] .icon::after {
+    content: '▶';
+}
+.dropdown[aria-expanded="true"] .icon::after {
+    content: '▼';
+}     
+```
