@@ -147,17 +147,21 @@ div soup means using div for all elements
 
 Some elements have semantic meaning but no special functionality. Examples are:
 
+```html
 <aside>
 <footer>
 <header>
+```
 
 good for SEO score, website health score
 
 Other's provide a lot of built-in functionality such as:
 
+```html
 <button>
 <input>
 <textarea>
+```
 
 nested headings are good for accessibility, option + control + U
 
@@ -171,6 +175,7 @@ if the input is a child of the label, for is not required.
 
 The label tag can only works with "labelable" elements. Those include:
 
+```html
 <button>
 <input>
 <keygen>
@@ -179,6 +184,7 @@ The label tag can only works with "labelable" elements. Those include:
 <progress>
 <select>
 <textarea>
+```
 
 for other elements, use aria-label
 
@@ -203,3 +209,11 @@ Power of semantic elements and flexibility functionality to any element with ari
 ## 13. Accessibility Problems Exercise
 
 [https://learn-a11y.netlify.app/exercises/2.html](https://learn-a11y.netlify.app/exercises/2.html)
+
+## 14. Accessibility Problems Solution
+
+aria-label for no content link
+
+button is for interactivity on the page
+
+link is for going different page
