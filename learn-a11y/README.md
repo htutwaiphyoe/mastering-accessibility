@@ -187,3 +187,15 @@ label can be visually hidden
 aria-label will be read by screen reader when element is focus.
 
 provide keyboard shortcut with key binding for screen readers
+
+## 12. Buttons
+
+tabindex is to be focus with tab
+
+Power of semantic elements and flexibility functionality to any element with aria (eg. div)
+
+```html
+<button onclick="alert('hello')">Click me!</button>
+
+<div aria-label="Alert the word hello" tabindex="0" role="button" onclick="alert('hello')" onkeyup="alert('hello')">Click me!</div>
+```
