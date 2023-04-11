@@ -262,3 +262,22 @@ aria can be selected by css selectors
     content: '▼';
 }     
 ```
+
+## 16. Live Regions & ARIA Exercise
+
+Live Regions
+Applications can become very dynamic. For cases where important information could be coming in at any time, the ARIA spec provides the ability to mark an element as containing live data so that screen readers can read out updates as they come.
+
+Think of using the Uber app to hail a ride. At first your status will be "waiting for a ride" but at an undetermined time it will change to "drive en route". For this we could:
+
+```html
+<div aria-live="assertive">Waiting for a ride</div>
+```
+
+Then, all we have to do is update the content of that div and any assistive technology will let the user know.
+
+The value in aria-live is a politeness setting.
+
+assertive - will interrupt whatever it's doing to announce.
+polite - will announce the live region update when it next idles.
+off - will not read the update.
