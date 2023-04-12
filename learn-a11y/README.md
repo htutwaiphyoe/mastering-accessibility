@@ -299,3 +299,16 @@ Keyboard Shortcuts
 Keyboard shortcuts are another curb cut example. Sites like Twitter and Facebook offer keyboard shortcuts for almost any action which are great for both keyboard only users and and power users!
 
 handle with JS for key binding and make key stroke as less as possible
+
+## 19. Skip Links
+
+[https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible)
+
+Skip links help users skip over large headers and navigation and jump right into the "main" content of your site. When a user hits tab for the first time, a button will appear and offer users to jump right to the main section.
+
+How to make a skip link
+Create an anchor with the body "Skip to content"
+Prepend it to the body of your website
+Make it visually hidden
+Give it a focus state which makes it visible
+href + id of main content
