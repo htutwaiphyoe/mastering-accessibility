@@ -287,3 +287,15 @@ off - will not read the update.
 [https://learn-a11y.netlify.app/exercises/3.html](https://learn-a11y.netlify.app/exercises/3.html)
 
 aria-live re-announces every content in the element is changed, so scope need to be as narrow as possible
+
+## 18. Focus Management
+
+Keyboard only users
+
+As users navigate around using only the keyboard, focus rings provide a necessary clue as to the currently active item.
+
+Keyboard Shortcuts
+
+Keyboard shortcuts are another curb cut example. Sites like Twitter and Facebook offer keyboard shortcuts for almost any action which are great for both keyboard only users and and power users!
+
+handle with JS for key binding and make key stroke as less as possible
