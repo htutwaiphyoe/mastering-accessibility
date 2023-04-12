@@ -312,3 +312,7 @@ Prepend it to the body of your website
 Make it visually hidden
 Give it a focus state which makes it visible
 href + id of main content
+
+## 20. Focus Management Q&A
+
+sound for notification, lighthouse accessibility, accessibility eslint plugin
