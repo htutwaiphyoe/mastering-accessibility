@@ -281,3 +281,9 @@ The value in aria-live is a politeness setting.
 assertive - will interrupt whatever it's doing to announce.
 polite - will announce the live region update when it next idles.
 off - will not read the update.
+
+## 17. ARIA Solution
+
+[https://learn-a11y.netlify.app/exercises/3.html](https://learn-a11y.netlify.app/exercises/3.html)
+
+aria-live re-announces every content in the element is changed, so scope need to be as narrow as possible
