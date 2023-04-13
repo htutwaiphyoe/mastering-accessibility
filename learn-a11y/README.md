@@ -363,3 +363,7 @@ grab first and last focus element and loop through them
 ## 23. Skip Link Exercise
 
 [https://learn-a11y.netlify.app/exercises/4.html](https://learn-a11y.netlify.app/exercises/4.html)
+
+## 24. Skip Link Solution
+
+make anchor visible when focus-visible
