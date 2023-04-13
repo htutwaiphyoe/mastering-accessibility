@@ -359,3 +359,7 @@ Tab trapping
 Another useful concept is tab trapping. Consider opening a modal on a page which contains a form. A keyboard only user will want to tab around the form but unless we help, tabbing while focused on the last form element will send us all the way back to the main document.
 
 grab first and last focus element and loop through them
+
+## 23. Skip Link Exercise
+
+[https://learn-a11y.netlify.app/exercises/4.html](https://learn-a11y.netlify.app/exercises/4.html)
