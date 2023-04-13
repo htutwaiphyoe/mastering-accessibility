@@ -316,3 +316,36 @@ href + id of main content
 ## 20. Focus Management Q&A
 
 sound for notification, lighthouse accessibility, accessibility eslint plugin
+
+## 21. Tab Navigation
+
+You can use the tab key to navigate to the next tabbable item and shift + tab to navigate to the previous item.
+
+```html
+Tabbable elements include:
+<a>
+<button>
+<input>
+<select>
+<textarea>
+<iframe>
+```
+
+[https://github.com/jkup/focusable](https://github.com/jkup/focusable)
+
+Making an element tabbable
+
+You can add the tabindex attribute to any element like this:
+
+```html
+<div tabindex="0">I'm focusable</div>
+```
+
+Tabindex values
+a negative value means that the element should be focusable, but should not be reachable via sequential keyboard navigation;
+0 means that the element should be focusable and reachable via sequential keyboard navigation, but its relative order is defined by the platform convention;
+a positive value means should be focusable and reachable via sequential keyboard navigation; its relative order is defined by the value of the attribute: the sequential follow the increasing number of the tabindex. If several elements share the same tabindex, their relative order follows their relative position in the document.
+
+top level element must be tabble and children are with arrow keys.
+
+most of the design systems are accessible out of the box.
