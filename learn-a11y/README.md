@@ -349,3 +349,13 @@ a positive value means should be focusable and reachable via sequential keyboard
 top level element must be tabble and children are with arrow keys.
 
 most of the design systems are accessible out of the box.
+
+## 22. Active Element & Tab Trapping
+
+Active Element
+Sometimes, especially on single page applications, it's helpful to store the currently focused element before a page transition so you can return to it later.
+
+Tab trapping
+Another useful concept is tab trapping. Consider opening a modal on a page which contains a form. A keyboard only user will want to tab around the form but unless we help, tabbing while focused on the last form element will send us all the way back to the main document.
+
+grab first and last focus element and loop through them
