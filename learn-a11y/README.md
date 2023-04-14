@@ -431,24 +431,28 @@ This is important both as a preference and also to avoid causing issues for user
 <div class="animation">animated box</div>
 ```
 
+## 28. Prefers Color Scheme & Visuals Exercise
+
 Prefers Color Scheme
 Another amazing API is one that allows us to detect if the user prefers a "light" or "dark" colorscheme.
 
 ```html
 <style>
     @media (prefers-color-scheme: dark) {
-            .wrapper {
-              background: black;
-            }
-          }
+        .wrapper {
+            background: black;
+        }
+    }
 
-          @media (prefers-color-scheme: light) {
-            .wrapper {
-              background: white;
-            }
-          }
+    @media (prefers-color-scheme: light) {
+        .wrapper {
+            background: white;
+        }
+    }
 </style>
-  <div class="wrapper">
+<div class="wrapper">
             ...
-          </div>
+</div>
 ```
+
+it can be accessed by JS. [https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia)
