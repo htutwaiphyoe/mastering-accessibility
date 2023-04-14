@@ -405,3 +405,50 @@ Fix markup errors
 Although it won't always have a user facing effect, it is recommended that you find and fix and validation or parsing errors in your HTML.
 
 use [validator.w3.org.](validator.w3.org.) to check markup
+
+## 27. Prefers Reduced Motion
+
+Neurocognitive
+
+start with prefers and what they're doing is they're giving you access to specific system information
+
+Prefers Reduced Motion
+Users can set a "prefers reduced motion" setting in their operating system (Windows, Mac, Linux) and we can read that setting in CSS and swap out animations with more subtle effects.
+
+This is important both as a preference and also to avoid causing issues for users who may suffer from seizures.
+
+```html
+<style>
+    .animation {
+        animation: pulse 1s linear infinite both;
+    }
+    @media (prefers-reduced-motion) {
+        .animation {
+            animation-name: dissolve;
+        }
+    }
+</style>
+<div class="animation">animated box</div>
+```
+
+Prefers Color Scheme
+Another amazing API is one that allows us to detect if the user prefers a "light" or "dark" colorscheme.
+
+```html
+<style>
+    @media (prefers-color-scheme: dark) {
+            .wrapper {
+              background: black;
+            }
+          }
+
+          @media (prefers-color-scheme: light) {
+            .wrapper {
+              background: white;
+            }
+          }
+</style>
+  <div class="wrapper">
+            ...
+          </div>
+```
