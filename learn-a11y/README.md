@@ -367,3 +367,31 @@ grab first and last focus element and loop through them
 ## 24. Skip Link Solution
 
 make anchor visible when focus-visible
+
+## 25. Color Contrast & Visual Impairments
+
+Color Contrast
+WebAIM
+To check color contrast online, use the WebAIM contrast checker.
+
+[https://webaim.org/resources/contrastchecker/](https://webaim.org/resources/contrastchecker/)
+
+this tool shows where it depends on the size, it depends on the surroundings, and it depends on how compliant you're trying to be.
+
+Chrome DevTools
+Did you know the Chrome DevTools come with a built-in accessibility color checker?
+
+it requires to have a parent element with a background and a child element with a color. a body tag with both background and color, it won't be able to pick up on those.
+
+check color picker in dev tool
+
+Colors and forms
+An important consideration for colorblind users is making sure that color isn't the only way users can tell if there is an error with the form. For example, a red ring is not enough. Consider adding an icon or an error label.
+
+Visual Impairments
+To simulate a number of visual impairments on any website, check out NoCoffee for Firefox [https://addons.mozilla.org/en-US/firefox/addon/nocoffee/](https://addons.mozilla.org/en-US/firefox/addon/nocoffee/)
+
+UI design and layout are essential for visual impairments. big font size, color contrast and putting things together
+
+Proximity of notifications from what you're doing
+Helps neurological and also low vision (another curb cut example)
