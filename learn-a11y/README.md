@@ -395,3 +395,13 @@ UI design and layout are essential for visual impairments. big font size, color 
 
 Proximity of notifications from what you're doing
 Helps neurological and also low vision (another curb cut example)
+
+## 26. Set Language & Fixing Markup
+
+Setting the language
+Remember to set the lang attribute both on the top level html tag as well as any sections where the language deviates from it.
+
+Fix markup errors
+Although it won't always have a user facing effect, it is recommended that you find and fix and validation or parsing errors in your HTML.
+
+use [validator.w3.org.](validator.w3.org.) to check markup
