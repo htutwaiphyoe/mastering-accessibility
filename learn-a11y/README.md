@@ -482,3 +482,9 @@ lighthouse can be integrated in CI/CD.
 
 [https://accessibility.day/](https://accessibility.day/)
 [https://egghead.io/courses/accessibility-tips-tricks-49286904](https://egghead.io/courses/accessibility-tips-tricks-49286904)
+
+## 32. Wrapping Up
+
+add aria-label in icon button
+
+color contrast, semantic html, proper heading order, ads can mess up site accessibility
