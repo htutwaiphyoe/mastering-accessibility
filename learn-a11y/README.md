@@ -456,3 +456,7 @@ Another amazing API is one that allows us to detect if the user prefers a "light
 ```
 
 it can be accessed by JS. [https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia)
+
+## 29. Visuals Solution
+
+[https://learn-a11y.netlify.app/exercises/5.html](https://learn-a11y.netlify.app/exercises/5.html)
