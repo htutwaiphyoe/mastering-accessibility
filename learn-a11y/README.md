@@ -477,3 +477,8 @@ Google's Lighthouse
 
 grabbing accessibility component only from design system
 lighthouse can be integrated in CI/CD.
+
+## 31. Additional Resources
+
+[https://accessibility.day/](https://accessibility.day/)
+[https://egghead.io/courses/accessibility-tips-tricks-49286904](https://egghead.io/courses/accessibility-tips-tricks-49286904)
