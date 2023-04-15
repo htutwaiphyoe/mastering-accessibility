@@ -460,3 +460,20 @@ it can be accessed by JS. [https://developer.mozilla.org/en-US/docs/Web/API/Wind
 ## 29. Visuals Solution
 
 [https://learn-a11y.netlify.app/exercises/5.html](https://learn-a11y.netlify.app/exercises/5.html)
+
+## 30. Accessibility Linters & Dev Tools
+
+Tooling
+Linters
+[https://www.npmjs.com/package/eslint-plugin-jsx-a11y](https://www.npmjs.com/package/eslint-plugin-jsx-a11y)
+Angular Codelyzer
+eslint-plugin-vuejs-accessibility
+Accessible Design Systems
+Adobe's React Spectrum
+Google's Material Design
+Accessibility Developer Tools
+Deque's axe DevTools
+Google's Lighthouse
+
+grabbing accessibility component only from design system
+lighthouse can be integrated in CI/CD.
