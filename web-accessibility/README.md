@@ -1,5 +1,7 @@
 # Web App Accessibility - Frontend Masters
 
+## Information
+
 This repo includes the public source code for the [course website](https://web-accessibility-v3.vercel.app/) related to the [Frontend Masters course on Web App Accessibility](https://frontendmasters.com/courses/react-accessibility/).
 
 Topics:
@@ -38,3 +40,13 @@ yarn run dev
 ```
 
 Note: These slides are based on the [JavaScript Patterns repo](https://github.com/lydiahallie/javascript-react-patterns) from Lydia Hallie.
+
+## 01. Introduction
+
+Security issues => entering bank details without other's help
+
+font size huge => vision accessibility
+
+access debt
+
+accessibility requirement by law
