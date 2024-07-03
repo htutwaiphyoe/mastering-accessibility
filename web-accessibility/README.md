@@ -50,3 +50,11 @@ font size huge => vision accessibility
 access debt
 
 accessibility requirement by law
+
+## 02. Benefit of Accessibility
+
+switch device => limited motions
+
+screen reader => rendering is important
+
+voice over => semantic html
