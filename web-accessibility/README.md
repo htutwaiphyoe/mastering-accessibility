@@ -62,3 +62,21 @@ voice over => semantic html
 ## 03. Accessibility Standards & Definitions
 
 WCAG => forced by law
+
+## 04. Screen Readers
+
+Screen Readers => blind
+
+iPhone => default screen reader (VoiceOver)
+
+Read Aloud => Browser extension
+
+skip links => screen reader techniques
+
+alt => shouldn't add image/photo/picture as screen readers know it is a image
+
+WebAIM => survey group
+
+different platforms have different APIs
+
+iOS, MacOS, Windows (JAWS, NVDA) => VM route
