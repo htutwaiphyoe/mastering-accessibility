@@ -80,3 +80,19 @@ WebAIM => survey group
 different platforms have different APIs
 
 iOS, MacOS, Windows (JAWS, NVDA) => VM route
+
+## 05. Alternative Text
+
+no alt text => read file name
+
+alt text => brief and descriptive
+
+captions are part of the content.
+
+empty alt text (decorative image like GIF) => skip the read
+
+alt decision tree
+
+sr-only for complex alt text with markup => arial-labelledby + id => background image alt text
+
+AI alt text for user-generated content
