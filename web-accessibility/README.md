@@ -58,3 +58,7 @@ switch device => limited motions
 screen reader => rendering is important
 
 voice over => semantic html
+
+## 03. Accessibility Standards & Definitions
+
+WCAG => forced by law
