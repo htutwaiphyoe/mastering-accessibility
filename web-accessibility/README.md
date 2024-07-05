@@ -96,3 +96,13 @@ alt decision tree
 sr-only for complex alt text with markup => arial-labelledby + id => background image alt text
 
 AI alt text for user-generated content
+
+## 06. Assistive Technologies
+
+eyeglasses and wheelchairs => assistive devices.
+Speech recognition and voice control
+Braille displays
+Switch devices
+Screen magnification
+Transcripts and Closed Captions
+Audio Descriptions
