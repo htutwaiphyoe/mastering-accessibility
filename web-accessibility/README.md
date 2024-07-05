@@ -106,3 +106,11 @@ Switch devices
 Screen magnification
 Transcripts and Closed Captions
 Audio Descriptions
+
+## 07. Screen Reader Exercise
+
+Mac VoiceOVer => fn + f5 => control to pause
+
+screen reader announces type of elements
+
+rotor utilities => list everything on the link
