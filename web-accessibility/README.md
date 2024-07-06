@@ -138,3 +138,11 @@ transcripts and captions for media content
 Lighthouse, Axe Chrome extension
 
 ESlint-Plugin-JSX-A11y, Axe Linter
+
+## 10. Accessibility Dev Tools Walkthrough
+
+axe dev tools => full page scan => check code level, need to check UX level too
+
+Lighthouse
+
+aria-label for landmark label
