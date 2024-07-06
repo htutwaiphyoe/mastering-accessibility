@@ -146,3 +146,13 @@ axe dev tools => full page scan => check code level, need to check UX level too
 Lighthouse
 
 aria-label for landmark label
+
+## 11. Working with Teams
+
+disabled the cursor on localhost
+
+saying something is compliant and actually making it accessible are two totally different things
+
+It needs to be part of product DNA, and the earlier incorporate that, the better.
+
+don't stop at tooling
