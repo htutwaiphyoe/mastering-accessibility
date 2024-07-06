@@ -156,3 +156,11 @@ saying something is compliant and actually making it accessible are two totally 
 It needs to be part of product DNA, and the earlier incorporate that, the better.
 
 don't stop at tooling
+
+## 12. Debugging Exercise
+
+better late than never
+
+accessibility inspector => accessibility tree
+
+contrast AA => 4.5, AAA => 7.0
