@@ -118,3 +118,23 @@ rotor utilities => list everything on the link
 ## 08. Screen Readers Q&A
 
 Assistiv Labs
+
+## 09. Testing Overview, Linters & Dev Tools
+
+accessibility testing should be part of regular workflow
+
+tab key to navigate through a page
+
+a mouse user can click on it, as a keyboard user should be able to do the same task.
+
+zoom the page to at least 200%
+
+responsive design will work for zoom and magnification => layout reflow
+
+screen readers
+
+transcripts and captions for media content
+
+Lighthouse, Axe Chrome extension
+
+ESlint-Plugin-JSX-A11y, Axe Linter
