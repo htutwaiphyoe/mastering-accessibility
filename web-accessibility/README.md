@@ -204,3 +204,9 @@ page level versus element level language => can overwrite
 ## 16. Accessible HTML Exercise
 
 <https://web-accessibility-v3.vercel.app/product-page-exercise-3>
+
+## 17. Accessible HTML Solution: Product Details
+
+only have one header role banner
+
+IconButton => aria-label
