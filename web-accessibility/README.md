@@ -192,3 +192,11 @@ nav and sections that aren't labeled are kind of treated as divs
 if lists have their lists style removed with CSS, there's no dot, they will actually not call it out as a list in a lot of cases in Safari => add role list
 
 label every control, for, id, wrap input in label
+
+## 15. Setting Language and Fixing Markup
+
+put HTML Lang
+
+depending on how the content is like what language it's in, the screen reader will change its pronunciation
+
+page level versus element level language => can overwrite
