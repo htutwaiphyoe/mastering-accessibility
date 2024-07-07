@@ -216,3 +216,11 @@ IconButton => aria-label
 the goal of aria-hidden is to hide something from the accessibility tree.
 
 ref={(node) => setInert(node, 1)} to remove tab index on ghost links (hidden links)
+
+## 19. ARIA
+
+ARIA stands for Accessible Rich Internet Applications
+
+standard to add accessibility information through web apps
+
+implicit roles and explicit roles
