@@ -210,3 +210,9 @@ page level versus element level language => can overwrite
 only have one header role banner
 
 IconButton => aria-label
+
+## 18. Accessible HTML Solution: Header & Gallery
+
+the goal of aria-hidden is to hide something from the accessibility tree.
+
+ref={(node) => setInert(node, 1)} to remove tab index on ghost links (hidden links)
