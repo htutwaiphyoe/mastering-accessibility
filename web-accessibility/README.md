@@ -164,3 +164,21 @@ better late than never
 accessibility inspector => accessibility tree
 
 contrast AA => 4.5, AAA => 7.0
+
+## 13. Accessible & Semantic HTML
+
+If it generating a front end that users are interacting with, accessibility is a concern.
+
+the basic always apply
+
+HTML provides structural semantics => good for screen reader
+
+all of those elements that are not divs have meaning => tags become objects in accessibility tree
+
+semantic HTML => h1, header, footer => include in accessibility tree
+
+generic HTML => div, span => does not include in accessibility tree
+
+div soup => a long tree structure of div
+
+right heading level for the content => not based on the way it looks => hierarchy of content
