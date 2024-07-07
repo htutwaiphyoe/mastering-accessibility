@@ -224,3 +224,17 @@ ARIA stands for Accessible Rich Internet Applications
 standard to add accessibility information through web apps
 
 implicit roles and explicit roles
+
+## 20. Roles, States and Properties
+
+building blocks of ARIA. all of the attributes that are defined in the ARIA specification are roles, states, or properties
+
+A11ySupport.io => caniuse for aria
+
+ARIA in your CSS selectors
+
+can't put aria-label on a div unless it has a certain role on it
+
+title, aria-describedby => accessible description.
+
+Chrome DevTools => show which thing wins for multiple
