@@ -182,3 +182,13 @@ generic HTML => div, span => does not include in accessibility tree
 div soup => a long tree structure of div
 
 right heading level for the content => not based on the way it looks => hierarchy of content
+
+## 14. Landmark Elements, Forms, & Buttons
+
+landmark elements are technically a best practice
+
+nav and sections that aren't labeled are kind of treated as divs
+
+if lists have their lists style removed with CSS, there's no dot, they will actually not call it out as a list in a lot of cases in Safari => add role list
+
+label every control, for, id, wrap input in label
