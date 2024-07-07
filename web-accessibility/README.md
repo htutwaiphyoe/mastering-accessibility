@@ -200,3 +200,7 @@ put HTML Lang
 depending on how the content is like what language it's in, the screen reader will change its pronunciation
 
 page level versus element level language => can overwrite
+
+## 16. Accessible HTML Exercise
+
+<https://web-accessibility-v3.vercel.app/product-page-exercise-3>
