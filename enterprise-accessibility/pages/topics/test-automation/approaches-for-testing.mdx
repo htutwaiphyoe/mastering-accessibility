@@ -1,0 +1,125 @@
+import Links from '/components/Links';
+import { DropCapEmoji, DropCapGrid } from '/components/DropCap';
+
+# Approaches for Automated Testing
+
+For any component, there are multiple types of automated tests that could apply. There’s unit testing for isolated logic and functionality, component testing for a single component or a group of components, integration testing for compound components or pages, and end-to-end testing for whole pages.
+
+But these lines are blurry. In my opinion, you should use the automated tooling that helps you reproduce bugs and ensures fixes are baked in. What you call it is less important.
+
+## Linting
+
+Linters are helpful for checking code before you commit it, but you might need to configure them to keep the tools helpful.
+
+<DropCapGrid>
+    <DropCapEmoji>
+        <img src="/eslint.png" alt="ESLint logo" className="mt-2 max-w-[48px]" />
+    </DropCapEmoji>
+    <div>
+        You can run accessibility tests in your text editor (many of us use VS Code these days) using [ESLint-Plugin-JSX-A11y](https://www.npmjs.com/package/eslint-plugin-jsx-a11y).
+    </div>
+</DropCapGrid>
+
+<DropCapGrid>
+    <DropCapEmoji>
+        <img src="/axe.png" alt="Axe logo" className="mt-2 max-w-[48px]" />
+    </DropCapEmoji>
+    <div>
+        There is also [Axe Linter](https://www.deque.com/axe/devtools/linter/) which uses the same engine as axe-core and the Axe browser extensions.
+    </div>
+</DropCapGrid>
+
+## Unit tests
+
+Unit tests can be helpful for internal component APIs and logic. These tests shouldn’t interface with outside functions or other components.
+
+Accessibility unit tests can assert component-specific behavior, interaction/focus APIs, the presence of text alternatives, and ARIA states.
+
+<DropCapGrid>
+    <DropCapEmoji>
+        <img src="/jest-js.png" alt="Jest logo" className="mt-2 max-w-[48px]" />
+    </DropCapEmoji>
+    <div>
+        [Jest](https://jestjs.io/) is the modern standard for most unit tests in web apps these days. There are excellent tools to use with Jest for accessibility testing, including [Jest DOM](https://github.com/testing-library/jest-dom) with its accessibility matchers.
+    </div>
+</DropCapGrid>
+
+<DropCapGrid>
+    <DropCapEmoji>
+        <img src="/testing-library.png" alt="Testing Library logo" className="mt-2 max-w-[48px]" />
+    </DropCapEmoji>
+    <div>
+        [Testing Library](https://testing-library.com/) has become essential for accessibility testing with its queries and userEvent API Testing Library. It also includes framework APIs for vanilla DOM, React, React Native, Vue, Angular, Preact, Svelte, Cypress, Puppeteer, and more.
+    </div>
+</DropCapGrid>
+
+I consider these three unit testing tools (Jest, Testing Library, and Jest-DOM) to be essential for any modern web app if you can make it work with their various plugins.
+
+## Component testing
+
+<DropCapGrid>
+    <DropCapEmoji>
+        <img src="/cypress.png" alt="Cypress.io logo" className="mt-2 max-w-[48px]" />
+    </DropCapEmoji>
+    <div>
+        Within automated testing, [Cypress Component Testing](https://docs.cypress.io/guides/component-testing/overview) is also worth considering. If you already use Cypress and you like their API, you could use it to isolate single components or groups of components using the Cypress API. This is opposed to testing whole pages, to which regular Cypress is well suited.
+    </div>
+</DropCapGrid>
+
+<DropCapGrid>
+    <DropCapEmoji>
+        <img src="/storybook.png" alt="Storybook logo" className="mt-2 max-w-[48px]" />
+    </DropCapEmoji>
+    <div>
+        Don’t sleep on [Storybook](https://storybook.js.org/) for component testing. It bridges the gap between manual testing and automated testing, and can be essential for some teams. I’ve become a Storybook champion, now that I see how it can provide stability in the face of destructive data actions that can’t be replaced without client interaction. You can build out your components, variants, data states, and more in Storybook and test them with ease.
+    </div>
+</DropCapGrid>
+
+## Integration testing
+
+After unit testing, **integration testing** is the next big leap. Both integration and end-to-end testing can assert more real-world browser testing, document/page-level rules, widget interoperability, and color contrast. They also offer more flexible framework testing options.
+
+<DropCapGrid>
+    <DropCapEmoji>
+        <div className="flex flex-row">
+            <img src="/webdriverio.png" alt="Webdriver.io robot logo" className="mt-2 max-w-[48px] mr-4" />
+            <img src="/cypress.png" alt="Cypress.io robot logo" className="mt-2 max-w-[48px]" />
+        </div>
+    </DropCapEmoji>
+    <div>
+        Integration testing is often done with [Cypress](https://cypress.io) or [WebdriverIO](https://webdriver.io/), although Jest tests can blur these lines quite a bit (as can WebdriverIO!). The goal is to bring multiple components together in test and ensure there aren’t any unexpected effects.
+    </div>
+</DropCapGrid>
+
+
+## End-to-End testing
+
+**End-to-End testing**, or e2e, covers whole pages. This allows for unique accessibility testing aspects such as page navigation and page-level issues like visual contrast or document language.
+
+End-to-end testing isn’t necessarily distinct from integration in my experience. You also wouldn’t want to drown in testing tools just to satisfy some semantic purpose. The goal with end-to-end and integration testing is to cover the page context, and any details you can’t assert with unit tests (like link clicks actually going to a new page).
+
+> Let us appreciate these GIF metaphors. [Unit tests](https://marcysutton.github.io/a11y-and-ci/#/20) and [Integration tests](https://marcysutton.github.io/a11y-and-ci/#/21)
+
+## Configuring Testing Tools
+
+Tool configuration can be challenging! Sometimes infrastructure changes can cause blocking issues that require a pivot: _“Can these upgrades wait? Until when, and what will we do in the meantime?”_
+
+Here are some questions to ask while configuring tooling:
+
+- How is the UI in your app rendered? React-DOM, React-Native, Angular, etc.?
+- Can you inject tooling for accessibility tests in that context?
+    - i.e., can you inject Axe into the target document or environment?
+- How is the code bundled?
+    - Does it use webpack, Parcel, etc.?
+    - Can you make changes to the infrastructure for accessibility testing, or will you have to make do with what’s already there? (i.e. Testing Library userEvent)
+- _Who do I have to talk to to get a configuration change around here?_ 😏
+
+<Links>
+- https://jestjs.io/
+- https://testing-library.com/
+- https://github.com/testing-library/jest-dom
+- https://docs.cypress.io/guides/component-testing/overview
+- https://storybook.js.org/
+- https://cypress.io
+- https://webdriver.io/
+</Links>

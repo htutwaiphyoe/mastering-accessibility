@@ -1,0 +1,62 @@
+# What should make your spidey senses go off
+
+With practice, there are things with web accessibility that you’ll spot from a mile away. Have the curiosity to dig in and follow a regular workflow. [(coming up!)](/topics/accessible-uis/how-to-test-components)
+
+Here are some common issues that should make _your spidey senses go off_. My goal is for you to be able to identify these in code reviews and demos.
+
+We want to bring kindness to these situations and not judge people. We also need to identify accessibility issues (ideally) before they ship:
+
+## Form labels made with spans
+
+Many of us have seen it: a perfectly normal form `<input>` with label text next to it, marked up in a generic `<span>` or `<div>`.
+
+```html
+<div className="form-control">
+    <span className="label-text">First Name</span>
+    <input type="text" id="first-name" name="first-name" required />
+</div>
+```
+
+The person writing it may have forgotten about the `<label>` element, or maybe they haven’t [learned about it yet](https://css-tricks.com/html-inputs-and-labels-a-love-story/). It’s usually an easy swap from `<span>` to `<label>` (with an explicit for/id pairing, or wrap `label` around `input`).
+
+Bonus: labeling the `input` will add an [accessible name](/topics/accessible-naming-screen-readers/ARIA-accessible-name-computaiton) _and_ increase it’s click target.
+
+## Custom controls
+
+Form controls have historically been an accessibility issue as they’ve been very hard to style.
+
+This has improved quite a bit recently as browser vendors have made things more styleable and added new APIs. But any time you see a custom dropdown or select, date picker, typeahead or other form control, _be sure to test it._ You might also not be able to use the newest shiniest thing for enterprise sites. But we are in a golden era for web UI!
+
+Resource: [What’s new in HTML and CSS in 2023?](https://www.learnwithjason.dev/what-s-new-in-html-and-css-in-2023/) from Una Kravenoff and Jason Lengstorf
+
+## Colors
+
+Contrast is a very common accessibility issue on the web. It often requires browser testing to find failing contrast ratios.
+
+Automated tooling can surface contrast issues that can be computed programmatically. But many test suites are configured to allow builds with accessibility issues. 
+
+You’ll need an intentional process to surface contrast issues in development, because they will come up. We will cover some testing tools [later in this section](/topics/accessible-uis/how-to-test-components)!
+
+## Modals and Layers
+
+Modals are a big one. Anything that opens as a layer on top of other content has accessibility requirements, including:
+
+- Sending focus into the new content when it opens.
+- Restoring focus to the element the user was on previously when closing the layer.
+- Preventing keyboard and screen reader interaction with elements in the background.
+- Using a `dialog` role, focusable and labeled buttons and CTAs.
+
+Non-modal dialogs don’t have all of the same background requirements. But the goal is still to move focus into relevant content when a non-modal dialog opens and closes.
+
+## Mouse-only interactions
+
+I see this one a lot, where a generic DIV element will have a click handler on it: 
+
+```javascript
+<div onClick={clickHandler}>
+    Renew Contract
+</div>
+```
+There is almost never an accessible equivalent with the same functionality when elements are allowed to ship like this. So only mouse users will be able to fire this click event, as DIV elements are not focusable nor are they interactive from the keyboard. Not to mention the screen reader situation.
+
+We’ll dive into this more in the next section!

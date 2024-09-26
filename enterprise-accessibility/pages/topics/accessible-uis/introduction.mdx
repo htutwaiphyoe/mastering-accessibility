@@ -1,0 +1,38 @@
+# The Foundations of Accessibility Apply
+
+When it comes to User Interface (UI) components, the foundations of accessibility apply no matter how they are assembled. JavaScript-heavy apps, content-driven sites, vanilla web stacks, you name it.
+
+**The rendered output and impact on users is what we need to consider.**
+
+We start by designing with access in mind: visual contrast, font size, icons that are easy to understand, intuitive interactive interfaces, and more.
+
+In this section we’ll focus on the technical parts of accessible UIs so you can identify issues early and contribute accessible implementations. My goal is to help you learn what to watch out for, so a you can speak up in code reviews and anticipate accessibility issues in development cycles.
+
+## Valid semantic markup with HTML & ARIA
+
+<figure className="my-6 float-right ml-6 max-w-[420px]">
+    <img src="/web-platform.jpg" alt="HTML, CSS, and JavaScript logos" />
+    <figcaption className="italic font-bold mt-2">HTML is a pillar of the Web Platform. It is affected by CSS and JavaScript.</figcaption>
+</figure>
+The most fundamental aspect of web accessibility is semantic markup with HTML. Learn and use the default [HTML elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) for a big benefit to your team’s velocity, as there are so many features you won’t have to recreate! It’s normal to reference online sources on how to use certain elements, attributes, etc. Don’t worry...we all do it.
+
+ARIA is a standard set of role, state, and property attributes that target Assistive Technology (AT). We'll cover ARIA more in depth in the [next section](/topics/accessible-naming-screen-readers/ARIA-accessible-name-computation). I want to caution you when getting started with ARIA as it’s easy to mess up!
+
+There may also be framework-specific quirks in how you construct your UI components. We will dive into this more in the section on [Accessibility in JavaScript Apps](/topics/a11y-in-js-apps/frameworks).
+
+## Structure with headings and landmarks
+
+Semantic structure is created with `<h1>`-`<h6>` headings, landmarks such as `<main>`, `<nav>`, `<footer>`, `<section>` (with unique labels), content markup including `<ul>` and `<ol>` lists, and more. These are incredibly important for people who rely on AT to understand the structure of a page.
+
+## Interactivity with keyboards and screen readers
+
+Making components interactive is critical for people using keyboards and screen readers. Ensure that anything a mouse user can do, a keyboard user can do. You can then layer on functionality for AT when needed.
+
+For example, a `<button>` element will be focusable by default. It will also have a `button` role built-in and it will respond to `click` event handlers.
+
+```javascript
+<button onClick={clickHandler}>Use buttons</button>
+```
+
+
+The easiest way to understand this issue is to start testing with the keyboard. Can you reach and operate every interactive control, or are there accessible alternatives to complete the same task?

@@ -1,0 +1,48 @@
+# ARIA and Accessible Name Computation
+
+**ARIA, or Accessible Rich Internet Applications**, is a specification for a standard set of attributes for plumbing accessibility information through HTML.
+
+ARIA includes one concept with a big impact on HTML markup: [accessible naming](https://www.w3.org/WAI/ARIA/apg/practices/names-and-descriptions/).
+
+HTML form controls have names. Links and buttons have names. Section elements and tables have names, as well as other elements. (DIV elements do not.)
+
+## Writing accessible names
+
+There are multiple ways to add a name to an element depending on the role, including text content, the `<label>` form element, `aria-label` and `aria-labelledby` attributes, and even `title` and `placeholder`.
+
+But there can only be one name. In the case of multiple attributes and child content, which thing wins?
+
+## How are accessible names chosen?
+
+A document called [Accessible Name and Description Computation](https://www.w3.org/TR/accname-1.2/) standardizes this process so we don’t encounter absolute chaos across platforms.
+
+```html
+<label>
+    Zip Code
+    <input aria-label="zip-code" placeholder="00000" title="Zip code" type="number" />
+</label>
+```
+
+The Accesible Naming spec outlines how the order should go for non-hidden elements that allow naming: `aria-labelledby`, then `aria-label`, then the `title`/`placeholder` attributes or a form `<label>` element, then certain child controls, then text content (if I read it correctly).
+
+## What are accessible descriptions?
+
+Descriptions with `aria-describedby` and `title`, like names, are announced in screen readers. But they come after a slight delay and are configurable. So you can’t always count on users hearing descriptions.
+
+Accessible names and descriptions are also mentioned in the [main ARIA specification](https://www.w3.org/TR/wai-aria-1.2/#namecalculation). This is geeky and informative accessibility stuff that any developer should know!
+
+## Prefer visible text
+
+It’s easy to slap an `aria-label` onto something and call it good. Instead, you should prioritize visible text whenever possible so users can match up their visual experience with what they hear (or touch) from Assistive Technology.
+
+Often, `aria-label` attributes get out of date when content changes and they don’t accurately represent what’s visible on screen. There is a WCAG success criterion related to this issue: [Label in Name](https://www.w3.org/WAI/WCAG22/Understanding/label-in-name.html).
+
+## Chrome DevTools accessibility inspector
+
+My favorite tool to visualize accessible names and descriptions is Chrome DevTools. There is an Accessibility Inspector near the Styles pane of the Elements tab. It shows ”which one wins” in a multiple-attribute-and-text-content scenario, which is super helpful.
+
+<figure className="my-6">
+    <img src="/devtools-accessible-name.png" alt="Chrome DevTools Accessibility Inspector on an icon button on StackBlitz" />
+</figure>
+
+Or it will show that your form input doesn’t have an accessible name like you thought it did, because the id attribute on it isn’t matching up with a label. I wish we’d had this tool when I started as a web developer!

@@ -1,0 +1,37 @@
+import FocusDemo from '/components/FocusDemo';
+
+# Managing Focus in Interactive Components
+
+There are many components needing accessibility attention for the keyboard. If we learn the common patterns and user needs, we can anticipate requirements for accessible interactivity.
+
+Try ditching your mouse for a day each week and you’ll find all kinds of keyboard improvements you could make!
+
+## Common focus management patterns in JS apps
+
+Some patterns come up again and again, particularly in JavaScript-heavy apps where people have come to expect a certain kind of modern, asynchronous interactivity.
+
+- **Modals and view changes.**
+    - We must move focus into the modal content on open and restored on close.
+    - Modal layers should also prevent interaction in the background.
+- **Tab switchers and date pickers**.
+    - Using [roving tabindex](https://www.w3.org/WAI/ARIA/apg/patterns/radio/examples/radio/), we can create one focusable control that enables the arrow keys for interaction inside the component.
+- **Add/delete of items.**
+    - Depending on the browser, deleting a node while focused can kick the user back to the top of the page...not very ergonomic. Instead, we should handle focus when items are deleted and containers re-rendered.
+- **Other interactive widgets.**
+    - There are others. Think like a keyboard user who doesn’t want to get stuck behind layers or who can’t reach content they can see on screen.
+
+## When to show a focus outline
+
+When managing focus for components, there are obvious times when you’ll need to show a keyboard focus outline. Other times, it can be a bit of a gray area.
+
+Any time you use the TAB key to reach an interactive control like a button, link, form input, tab switcher, etc., there needs to be a visible focus style. Using the browser default is a fine way to go, although custom focus has become easier to style recently.
+
+Check out the [`:focus-visible`](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible) pseudo-class to make your life easier in this regard:
+
+<FocusDemo />
+
+I’ve also used the [What Input library](https://github.com/ten1seven/what-input) in the past to fine-tune my focus styles. 
+
+Users who rely on the keyboard will want to see where focus went, while mouse users will mostly dislike focus outlines on click. Finding a perfect solution can be tricky, especially when for voice navigation comes into play.
+
+My best advice is to use `:focus-visible` and make focus configurable if possible. In long-lived apps with user settings, let users tell you if they want visible focus styles.
