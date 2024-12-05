@@ -25,3 +25,11 @@ Reasons
 Upfront investment is a better investment than redoing everything to meet requirements, if not feature development becomes difficult
 
 thinking of trade-offs quality vs delivery
+
+## 03. Accessibility in the wild
+
+1. keyboard tab and arrow
+2. focus management
+3. reduce motion
+4. semantic html
+5. tools
