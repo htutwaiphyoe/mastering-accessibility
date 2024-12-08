@@ -33,3 +33,23 @@ thinking of trade-offs quality vs delivery
 3. reduce motion
 4. semantic html
 5. tools
+
+## 04. Prioritizing Accessibility in Software Dev
+
+MVPs don't have accessibility at first, but should include in the early stage, be a hero or champion. DNA of the product
+
+iteration and phases
+
+access debt
+
+do less if you can make it accessible
+
+When accessibility isn’t considered in planning, design, or engineering, it can become difficult and costly to redo.
+
+canvas based applications are hard to do accessibility
+
+Designer perspective => color contrast, design layout
+
+convince stakeholders => legal and compliance, Lost revenue, Brand reputation
+
+Accessibility Personas => Personas for accessibility would include people with disabilities as users of the product from the start.
