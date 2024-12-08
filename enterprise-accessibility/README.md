@@ -53,3 +53,7 @@ Designer perspective => color contrast, design layout
 convince stakeholders => legal and compliance, Lost revenue, Brand reputation
 
 Accessibility Personas => Personas for accessibility would include people with disabilities as users of the product from the start.
+
+## 05. Accessibility Project Requirements Exercise
+
+overflow scroll => tab index and use arrow key to scroll
