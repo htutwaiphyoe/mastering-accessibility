@@ -55,3 +55,10 @@ usable => perceive, understand, navigate, interact and contribute
 - Finance
 - Hospitality
 - Healthcare
+
+## Stay Compliant
+
+- Follow WCAG 2.1 Level AA standards
+- Test with real uses and assistive technologies
+- Use automated tools (Lighthouse, Axe)
+- Lead the team
