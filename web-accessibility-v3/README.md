@@ -62,3 +62,12 @@ usable => perceive, understand, navigate, interact and contribute
 - Test with real uses and assistive technologies
 - Use automated tools (Lighthouse, Axe)
 - Lead the team
+
+## Assistive Technologies
+
+- keyboard only
+- Head wand
+- Mouth stick
+- Single switch
+- Screen readers
+- Eye tracker keyboard
