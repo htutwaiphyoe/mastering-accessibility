@@ -71,3 +71,9 @@ usable => perceive, understand, navigate, interact and contribute
 - Single switch
 - Screen readers
 - Eye tracker keyboard
+
+## The curb cut effect
+
+curb cut effect => phenomenon of disability-friendly features being used and by a larger group than the people they were designed for
+
+improving one thing for specific issues benefits to others
