@@ -123,3 +123,10 @@ improving one thing for specific issues benefits to others
 - A (lowest, minimum level)
 - AA (Mid range, minimum legal requirement, recommended)
 - AAA (highest)
+
+## WCAG POUR Principles
+
+- Perceivable
+- Operable
+- Understandable
+- Robust
