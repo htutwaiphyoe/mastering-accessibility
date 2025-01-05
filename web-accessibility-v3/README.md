@@ -149,3 +149,9 @@ improving one thing for specific issues benefits to others
 - add the meaning of image or description of things inside it
 - picture tag => use aria label
 - avoid SEO keywords
+
+## Audio & Video
+
+- not all content are visual
+- transcript for video, audio
+- synchronized captions in YouTube video
