@@ -185,3 +185,8 @@ improving one thing for specific issues benefits to others
 
 - wrap input with label
 - no need to use for and id attributes
+
+## Limitations with label
+
+- works with 'label-able' element only
+- button, input, keygen, meter, output, progress, select, textarea
