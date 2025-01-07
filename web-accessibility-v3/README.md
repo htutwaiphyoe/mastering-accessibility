@@ -190,3 +190,9 @@ improving one thing for specific issues benefits to others
 
 - works with 'label-able' element only
 - button, input, keygen, meter, output, progress, select, textarea
+
+## ARIA-LABEL
+
+- can use to any elements
+- use to label that cannot labeled by Label element
+- aria-label has more precedence over label element
