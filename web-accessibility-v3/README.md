@@ -196,3 +196,13 @@ improving one thing for specific issues benefits to others
 - can use to any elements
 - use to label that cannot labeled by Label element
 - aria-label has more precedence over label element
+
+## Divs Are Not Buttons
+
+[accessibility-weekly](https://theadminbar.com/accessibility-weekly/)
+
+## Making button with a div
+
+```html
+<div onclick="alert('hello')">Click me!</div>
+```
