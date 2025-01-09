@@ -206,3 +206,9 @@ improving one thing for specific issues benefits to others
 ```html
 <div onclick="alert('hello')">Click me!</div>
 ```
+
+## Tell Screen readers it's clickable
+
+```html
+<div role="button" onclick="alert('hello')">Click me!</div>
+```
