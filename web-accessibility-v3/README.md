@@ -212,3 +212,9 @@ improving one thing for specific issues benefits to others
 ```html
 <div role="button" onclick="alert('hello')">Click me!</div>
 ```
+
+## Tab focus
+
+```html
+<div tabindex="0" role="button" onclick="alert('hello')">Click me!</div>
+```
