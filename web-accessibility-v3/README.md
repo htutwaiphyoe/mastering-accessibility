@@ -218,3 +218,9 @@ improving one thing for specific issues benefits to others
 ```html
 <div tabindex="0" role="button" onclick="alert('hello')">Click me!</div>
 ```
+
+## Keyboard only users interaction with space/enter
+
+```html
+<div tabindex="0" role="button" onclick="alert('hello')" onkeyup="alert('hello')">Click me!</div>
+```
