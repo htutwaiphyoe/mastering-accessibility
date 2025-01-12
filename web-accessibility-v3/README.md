@@ -224,3 +224,9 @@ improving one thing for specific issues benefits to others
 ```html
 <div tabindex="0" role="button" onclick="alert('hello')" onkeyup="alert('hello')">Click me!</div>
 ```
+
+## Labeling for Screen readers
+
+```html
+<div aria-label='Alert the word hello' tabindex="0" role="button" onclick="alert('hello')" onkeyup="alert('hello')">Click me!</div>
+```
