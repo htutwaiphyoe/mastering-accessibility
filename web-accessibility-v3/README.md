@@ -230,3 +230,9 @@ improving one thing for specific issues benefits to others
 ```html
 <div aria-label='Alert the word hello' tabindex="0" role="button" onclick="alert('hello')" onkeyup="alert('hello')">Click me!</div>
 ```
+
+## Styles for different state
+
+```html
+<div aria-label='Alert the word hello' tabindex="0" role="button" onclick="alert('hello')" onkeyup="alert('hello')" style="">Click me!</div>
+```
