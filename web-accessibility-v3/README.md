@@ -234,5 +234,11 @@ improving one thing for specific issues benefits to others
 ## Styles for different state
 
 ```html
-<div aria-label='Alert the word hello' tabindex="0" role="button" onclick="alert('hello')" onkeyup="alert('hello')" style="">Click me!</div>
+<div aria-label='Alert the word hello' tabindex="0" role="button" onclick="alert('hello')" onkeyup="alert('hello')" style="hover, active, focus, focus-within">Click me!</div>
+```
+
+## Just use button
+
+```html
+<button onclick="alert('hello')">Click me!</button>
 ```
