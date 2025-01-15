@@ -242,3 +242,9 @@ improving one thing for specific issues benefits to others
 ```html
 <button onclick="alert('hello')">Click me!</button>
 ```
+
+## Twitter's Div Soup
+
+- use single codebase for React and ReactNative
+- anti div soup and use semantic html
+- can create highly accessible without semantic html (trade-off)
