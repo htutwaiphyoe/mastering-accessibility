@@ -248,3 +248,12 @@ improving one thing for specific issues benefits to others
 - use single codebase for React and ReactNative
 - anti div soup and use semantic html
 - can create highly accessible without semantic html (trade-off)
+
+## Screen Reader Only Content
+
+- cannot detect screen reader or assistive technologies
+- no minimum website version for accessibility
+- full robust website with extremely accessible direction
+- use to communicate with a screen reader directly
+- use visually hidden class
+- eg. announcing accessibility features like shortcuts in twitter
