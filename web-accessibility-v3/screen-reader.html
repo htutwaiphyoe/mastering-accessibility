@@ -43,48 +43,57 @@
           <!-- Non-semantic website example -->
           <div class="practice-area">
             <div class="header">
-              <span class="title">My Website</span>
+              <h1 class="title">My Website</h1>
             </div>
 
-            <div class="nav">
-              <div>Home</div>
-              <div>About</div>
-              <div>Contact</div>
-            </div>
+            <nav class="nav">
+              <div>
+                <a href="#">Home</a>
+              </div>
+              <div>
+                <a href="#">About</a>
+              </div>
+              <div>
+                <a href="#">Contact</a>
+              </div>
+            </nav>
 
             <div class="main-content">
               <div class="section">
-                <span class="big-text">Welcome to our page</span>
-                <div class="text">Here is some important information.</div>
+                <h2 class="big-text">Welcome to our page</h2>
+                <p class="text">Here is some important information.</p>
               </div>
 
               <div class="section">
-                <span class="big-text">Latest Updates</span>
-                <div class="text">Check out our new features!</div>
+                <h2 class="big-text">Latest Updates</h2>
+                <p class="text">Check out our new features!</p>
               </div>
 
               <div class="form-container">
-                <div class="form-title">Contact Us</div>
+                <h2 class="form-title">Contact Us</h2>
                 <div>
-                  <span>Name:</span>
-                  <input type="text" />
+                  <label for="name">Name:</label>
+                  <input id="name" type="text" />
                 </div>
                 <div>
-                  <span>Email:</span>
-                  <input type="text" />
+                  <label for="email">Email:</label>
+                  <input id="email" type="text" />
                 </div>
                 <div>
-                  <span>Message:</span>
-                  <input type="text" />
+                  <label for="message">Message:</label>
+                  <input id="message" type="text" />
                 </div>
                 <div>
-                  <span>Subscribe to Newsletter</span>
-                  <input type="checkbox" />
+                  <label for="newsletter">Subscribe to Newsletter</label>
+                  <input id="newsletter" type="checkbox" />
                 </div>
                 <div>
-                  <div onclick="alert('Form submitted!')" class="submit-button">
+                  <button
+                    onclick="alert('Form submitted!')"
+                    class="submit-button"
+                  >
                     Submit Form
-                  </div>
+                  </button>
                 </div>
               </div>
             </div>
