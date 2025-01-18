@@ -257,3 +257,8 @@ improving one thing for specific issues benefits to others
 - use to communicate with a screen reader directly
 - use visually hidden class
 - eg. announcing accessibility features like shortcuts in twitter
+
+## Focus Management
+
+- visible focus indicators for keyboard users
+- mouse hover style does not need ring keyboard focus
