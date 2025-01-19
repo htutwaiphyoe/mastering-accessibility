@@ -261,4 +261,12 @@ improving one thing for specific issues benefits to others
 ## Focus Management
 
 - visible focus indicators for keyboard users
-- mouse hover style does not need ring keyboard focus
+- mouse hover style does not need ring, only keyboard focus
+
+## Focus Style Requirements
+
+- focus indicators must have minimum contrast ratio of 3:1 against adjacent colors
+- focus areas should be at least 2px thick
+- Focus style should be visible in both dark and light theme
+- Consider using multiple indicators (outline + background)
+- Animation can enhance focus visibility but not distracting
