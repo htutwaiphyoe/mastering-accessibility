@@ -270,3 +270,9 @@ improving one thing for specific issues benefits to others
 - Focus style should be visible in both dark and light theme
 - Consider using multiple indicators (outline + background)
 - Animation can enhance focus visibility but not distracting
+
+## Keyboard only users
+
+- usable with only keyboard
+- use focus indicator to know current active item
+- offer shortcut to do certain action (eg. skip link)
