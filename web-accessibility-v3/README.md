@@ -276,3 +276,8 @@ improving one thing for specific issues benefits to others
 - usable with only keyboard
 - use focus indicator to know current active item
 - offer shortcut to do certain action (eg. skip link)
+
+## Keyboard Shortcuts
+
+- provide shortcuts to do actions
+- eg. Twitter & Facebook shift + ?
