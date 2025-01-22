@@ -281,3 +281,9 @@ improving one thing for specific issues benefits to others
 
 - provide shortcuts to do actions
 - eg. Twitter & Facebook shift + ?
+
+## Skip Links
+
+- to skip large headers and navigation
+- jump to main content
+- show a button once the user hit tab for the first time in the website
