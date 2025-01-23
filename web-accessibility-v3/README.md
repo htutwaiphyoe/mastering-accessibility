@@ -287,3 +287,10 @@ improving one thing for specific issues benefits to others
 - to skip large headers and navigation
 - jump to main content
 - show a button once the user hit tab for the first time in the website
+
+## How to make a skip link
+
+- create an a tag with "Skip to content" text
+- Put it to the top of body
+- Make visually hidden
+- make it visible when in focus state
