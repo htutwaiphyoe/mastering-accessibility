@@ -294,3 +294,8 @@ improving one thing for specific issues benefits to others
 - Put it to the top of body
 - Make visually hidden
 - make it visible when in focus state
+
+## Tab Navigation
+
+- use tab key to navigate by default
+- next => tab, previous => shift + tab
