@@ -304,3 +304,7 @@ improving one thing for specific issues benefits to others
 
 - a, button, input, select, textarea, iframe
 - [focusable](https://github.com/jkup/focusable)
+
+## Making an non-tabbable element tabbable
+
+- use tabindex attribute
