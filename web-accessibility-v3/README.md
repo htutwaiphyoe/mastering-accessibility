@@ -314,3 +314,9 @@ improving one thing for specific issues benefits to others
 - negative => focusable, not reachable via sequential keyboard navigation
 - 0 => focusable and reachable, order is defined by DOM
 - positive => focusable and reachable, order is defined by value like z-index (NOT RECOMMENDED)
+
+## Active Element
+
+- store current focused element before page transition to return back to it
+- document.activeElement
+- element.focus()
