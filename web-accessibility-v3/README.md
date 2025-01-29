@@ -320,3 +320,9 @@ improving one thing for specific issues benefits to others
 - store current focused element before page transition to return back to it
 - document.activeElement
 - element.focus()
+
+## Tab Trapping
+
+- trap the tab navigation in a modal
+- last focus element back to first focus element in a modal
+- back to last focus element before modal open when modal closed
