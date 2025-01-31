@@ -337,3 +337,9 @@ improving one thing for specific issues benefits to others
 
 - WCAG sets overall standards (eg. color contrast, keyboard focus)
 - WAI-ARIA provides techniques to meet those standards for complex and dynamic content with ARIA APIs such as aria-label that simple HTML can't provide
+
+## Labels with ARIA
+
+- aria-label
+- aria-labelledby
+- aria-describedby
