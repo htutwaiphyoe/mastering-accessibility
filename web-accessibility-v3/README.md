@@ -343,3 +343,11 @@ improving one thing for specific issues benefits to others
 - aria-label
 - aria-labelledby
 - aria-describedby
+
+## Labelledby vs Describedby
+
+- label provides essential information about an object
+- description provides additional information that user might need
+- screen reader announces label first, description after
+- aria-labelledby + id
+- aria-describedby + id + visually-hidden css
