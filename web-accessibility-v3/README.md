@@ -351,3 +351,8 @@ improving one thing for specific issues benefits to others
 - screen reader announces label first, description after
 - aria-labelledby + id
 - aria-describedby + id + visually-hidden css
+
+## Roles, States & Properties
+
+- roles can apply to any elements
+- indication to screen readers for how to interact
