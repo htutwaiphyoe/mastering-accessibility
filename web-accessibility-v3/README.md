@@ -356,3 +356,9 @@ improving one thing for specific issues benefits to others
 
 - roles can apply to any elements
 - indication to screen readers for how to interact
+
+## ARIA in css
+
+- aria properties can be accessed in CSS.
+- same as data attribute
+- [aria-expanded='false']
