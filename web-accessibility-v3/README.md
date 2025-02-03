@@ -362,3 +362,8 @@ improving one thing for specific issues benefits to others
 - aria properties can be accessed in CSS.
 - same as data attribute
 - [aria-expanded='false']
+
+## Live Regions
+
+- to provide important information of dynamic state
+- provide to ability to mark an element as storing live data to read out by screen readers
