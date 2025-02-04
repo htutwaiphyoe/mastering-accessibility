@@ -367,3 +367,10 @@ improving one thing for specific issues benefits to others
 
 - to provide important information of dynamic state
 - provide to ability to mark an element as storing live data to read out by screen readers
+
+## Politeness
+
+- aria-live has 3 politeness settings
+- assertive => interrupt whatever screen reader is doing to announce
+- polite => announce after screen reader next idles
+- off => not read the updates
