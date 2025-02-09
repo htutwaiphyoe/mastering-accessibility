@@ -27,3 +27,9 @@
 - Not only technology also in public society
 - Often forgotten
 - Necessary to prioritize
+- Make it a part of the requirements
+- Persuade, better than being silent
+
+## Inaccessibility
+
+- Discrimination in practice, whether intentional or not
