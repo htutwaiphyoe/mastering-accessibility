@@ -33,3 +33,14 @@
 ## Inaccessibility
 
 - Discrimination in practice, whether intentional or not
+
+## Accessibility for Business
+
+- Increase their customer base
+- Hire people with disabilities
+- Create more robust products and services
+- Avoid lawsuits
+- Minimize costly redesign and rework
+- Selling point in marketing materials
+- Standout among competitors
+- Legal requirement in government and education sectors
