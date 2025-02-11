@@ -44,3 +44,10 @@
 - Selling point in marketing materials
 - Standout among competitors
 - Legal requirement in government and education sectors
+
+## Accessibility for Society
+
+- Provides a better quality of life for everyone (eg. elevators, curb cuts, intuitive user interfaces)
+- Reduces social isolation
+- Improves mental health for people with disabilities
+- Creates opportunities for everyone (Economic benefits: education, GDP)
