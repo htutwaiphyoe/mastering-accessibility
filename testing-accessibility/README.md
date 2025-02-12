@@ -51,3 +51,12 @@
 - Reduces social isolation
 - Improves mental health for people with disabilities
 - Creates opportunities for everyone (Economic benefits: education, GDP)
+
+## Accessibility as a Moral
+
+- It is necessary and right thing to do
+- To be able to access website
+- To be able to perform actions independently and securely
+- To be able to participate in a digital world
+- To be able to make valuable contributions in the workplace
+- [ADA History](https://www.history.com/articles/americans-with-disabilities-act-1990-capitol-crawl)
