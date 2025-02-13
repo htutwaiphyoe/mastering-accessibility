@@ -60,3 +60,10 @@
 - To be able to participate in a digital world
 - To be able to make valuable contributions in the workplace
 - [ADA History](https://www.history.com/articles/americans-with-disabilities-act-1990-capitol-crawl)
+
+## Accessibility as a Business
+
+- At least one billion people - 15% of the world's population have a recognized disability
+- $8 trillion in spending from them
+- Disposable income for working-age people with disabilities: $645 billions
+- 4055 ADA-related lawsuits in 2021
