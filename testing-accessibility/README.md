@@ -67,3 +67,11 @@
 - $8 trillion in spending from them
 - Disposable income for working-age people with disabilities: $645 billions
 - 4055 ADA-related lawsuits in 2021
+
+## Accessibility as a Legal
+
+- Civil rights laws depending on countries
+- USA: Americans with Disabilities Act, Section 508, ACAA, CVAA
+- WCAG is technically not required under the ADA
+- Canada: Accessible Canada Act, AODA
+- EU: European Policy Act, EU Directive
