@@ -57,3 +57,9 @@ Accessibility Personas => Personas for accessibility would include people with d
 ## 05. Accessibility Project Requirements Exercise
 
 overflow scroll => tab index and use arrow key to scroll
+
+## 06. Accessibility Foundations Review
+
+The rendered output and impact on users is what we need to consider.
+
+semantic html, keyboard and screen readers
