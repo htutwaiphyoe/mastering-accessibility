@@ -75,3 +75,9 @@
 - WCAG is technically not required under the ADA
 - Canada: Accessible Canada Act, AODA
 - EU: European Policy Act, EU Directive
+
+## Terms in Accessibility
+
+- Technologies
+- Guidelines & Standards
+- Miscellaneous terms and acronyms
