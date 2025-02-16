@@ -2,6 +2,8 @@
 
 - Jon Kuperman
 
+## Introduction
+
 Accessibility => a11y
 
 Web accessibility => Making websites usable to people with disabilities
