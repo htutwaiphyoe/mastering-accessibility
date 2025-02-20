@@ -16,3 +16,7 @@ usable => perceive, understand, navigate, interact and contribute
 2. Internationalization (language barrier)
 3. UI/UX (easy to use layout, information architecture, color)
 4. SEO (semantic html)
+
+## Disability Statistics (WHO)
+
+- An estimated 1.3 billion people experience significant disability. This represents 16% of the world’s population, or 1 in 6 of us.
