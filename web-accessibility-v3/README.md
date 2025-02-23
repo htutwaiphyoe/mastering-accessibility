@@ -27,3 +27,11 @@ usable => perceive, understand, navigate, interact and contribute
 - Cognitive and neurological
 - Visual
 - Hearing
+
+## Reasons
+
+- Empathy
+- Human Rights
+- Legal Issues
+- Impactful
+- Standout
