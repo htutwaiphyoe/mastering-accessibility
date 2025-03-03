@@ -35,3 +35,9 @@ usable => perceive, understand, navigate, interact and contribute
 - Legal Issues
 - Impactful
 - Standout
+
+## Legal Landscape
+
+- Legal requirement in US and EU
+- Disability Act (ADA)
+- Fines, Lawsuits and Reputational Damage
