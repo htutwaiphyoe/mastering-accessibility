@@ -136,3 +136,16 @@ improving one thing for specific issues benefits to others
 - assistive technology for blind/low vision person
 - converts digital text to speech
 - help to hear content and navigate with keyboard
+- page structure and layout is important
+- JAWS, NVDA, VoiceOver
+
+## Alternative Text
+
+- alt attribute in img tag
+- by default, read file name if there is no alt text
+- if exist, read alt text
+- if exist but empty text, skip (decorative purposes)
+- no need to add image/photo word in text
+- add the meaning of image or description of things inside it
+- picture tag => use aria label
+- avoid SEO keywords
