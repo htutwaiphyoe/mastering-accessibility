@@ -130,3 +130,9 @@ improving one thing for specific issues benefits to others
 - Operable
 - Understandable
 - Robust
+
+## Screen Reader
+
+- assistive technology for blind/low vision person
+- converts digital text to speech
+- help to hear content and navigate with keyboard
