@@ -41,3 +41,9 @@ usable => perceive, understand, navigate, interact and contribute
 - Legal requirement in US and EU
 - Disability Act (ADA)
 - Fines, Lawsuits and Reputational Damage
+
+## Laws and Standards
+
+- ADA Title II & III (Government & Business)
+- Section 508 (Federal Agencies)
+- WCAG 2.1 Level AA compliance
