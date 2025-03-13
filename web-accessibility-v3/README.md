@@ -47,3 +47,11 @@ usable => perceive, understand, navigate, interact and contribute
 - ADA Title II & III (Government & Business)
 - Section 508 (Federal Agencies)
 - WCAG 2.1 Level AA compliance
+
+## Lawsuits & Fines
+
+- $150k per violation
+- E-commerce
+- Finance
+- Hospitality
+- Healthcare
