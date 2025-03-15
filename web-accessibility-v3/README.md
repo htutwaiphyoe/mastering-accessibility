@@ -117,3 +117,9 @@ improving one thing for specific issues benefits to others
 - An Independent organization
 - Provide easy to understand recommendations for Accessibility
 - [WebAIM](https://webaim.org/)
+
+## WCAG Conformance Levels
+
+- A (lowest, minimum level)
+- AA (Mid range, minimum legal requirement, recommended)
+- AAA (highest)
