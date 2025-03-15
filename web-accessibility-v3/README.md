@@ -103,3 +103,10 @@ improving one thing for specific issues benefits to others
 - Web Content Accessibility Guidelines (WCAG)
 - The official standard, published by WAI
 - [wcag](https://www.w3.org/WAI/standards-guidelines/wcag/)
+- Lighthouse, Linter, Automation Tools follow WCAG rules
+
+## WAI-ARIA
+
+- Accessible Rich Internet Applications
+- Accessibility Standard beyond semantic HTML
+- [WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/)
