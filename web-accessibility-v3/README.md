@@ -89,3 +89,9 @@ improving one thing for specific issues benefits to others
 - The World Wide Web Consortium (W3C)
 - The international standards organization for the World Wide Web
 - The standards for HTML, CSS and Accessibility
+
+## WAI
+
+- Web Accessibility Initiative (WAI)
+- An Initiative within the W3C focused on Accessibility
+- The author of official Accessibility Specification (WCAG)
