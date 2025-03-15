@@ -83,3 +83,9 @@ improving one thing for specific issues benefits to others
 - Web Content Accessibility Guidelines (WCAG)
 - W3C Web Accessibility Initiative (WAI)
 - Accessible Rich Internet Applications (WAI-ARIA)
+
+## W3C
+
+- The World Wide Web Consortium (W3C)
+- The international standards organization for the World Wide Web
+- The standards for HTML, CSS and Accessibility
