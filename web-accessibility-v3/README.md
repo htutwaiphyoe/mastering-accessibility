@@ -77,3 +77,9 @@ usable => perceive, understand, navigate, interact and contribute
 curb cut effect => phenomenon of disability-friendly features being used and by a larger group than the people they were designed for
 
 improving one thing for specific issues benefits to others
+
+## Standards and Guidelines
+
+- Web Content Accessibility Guidelines (WCAG)
+- W3C Web Accessibility Initiative (WAI)
+- Accessible Rich Internet Applications (WAI-ARIA)
