@@ -110,3 +110,10 @@ improving one thing for specific issues benefits to others
 - Accessible Rich Internet Applications
 - Accessibility Standard beyond semantic HTML
 - [WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/)
+
+## WebAIM
+
+- Not an official standards body
+- An Independent organization
+- Provide easy to understand recommendations for Accessibility
+- [WebAIM](https://webaim.org/)
