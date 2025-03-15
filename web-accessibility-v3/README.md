@@ -155,3 +155,8 @@ improving one thing for specific issues benefits to others
 - not all content are visual
 - transcript for video, audio
 - synchronized captions in YouTube video
+
+## Semantic HTMl
+
+- have meaning to screen reader but no special functionality `<header>`, `<footer>`
+- have both meaning and functionality `<button>`, `<input>`
