@@ -160,3 +160,8 @@ improving one thing for specific issues benefits to others
 
 - have meaning to screen reader but no special functionality `<header>`, `<footer>`
 - have both meaning and functionality `<button>`, `<input>`
+
+## Div Soup
+
+- using div for everything
+- multiple nested div elements
