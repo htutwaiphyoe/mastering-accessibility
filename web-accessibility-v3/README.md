@@ -175,3 +175,7 @@ improving one thing for specific issues benefits to others
 
 - using p or span
 - Screen reader announce "Edit text, blank"
+
+## HTML Labels
+
+- use label tag with for attribute and input with id attribute
