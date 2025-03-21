@@ -165,3 +165,8 @@ improving one thing for specific issues benefits to others
 
 - using div for everything
 - multiple nested div elements
+
+## Form Labels
+
+- Label is essential for each input
+- Screen reader announce input + label
