@@ -179,3 +179,9 @@ improving one thing for specific issues benefits to others
 ## HTML Labels
 
 - use label tag with for attribute and input with id attribute
+- Screen reader announce "Label, Edit text, blank"
+
+## Implicit HTML Labels
+
+- wrap input with label
+- no need to use for and id attributes
