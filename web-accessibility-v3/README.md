@@ -169,4 +169,9 @@ improving one thing for specific issues benefits to others
 ## Form Labels
 
 - Label is essential for each input
-- Screen reader announce input + label
+- Screen reader announce input + label once input is focused
+
+## Visual only labels
+
+- using p or span
+- Screen reader announce "Edit text, blank"
