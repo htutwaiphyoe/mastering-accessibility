@@ -97,6 +97,25 @@
         }
       };
 
+      // Handle tab key press
+      const handleTabKey = (e) => {
+        if (e.key !== "Tab") return;
+
+        const focusableElements = getFocusableElements();
+        const firstElement = focusableElements[0];
+        const lastElement = focusableElements[focusableElements.length - 1];
+
+        if (e.shiftKey && document.activeElement === firstElement) {
+          // If Shift+Tab and focused on first element, move focus to last element
+          e.preventDefault();
+          lastElement.focus();
+        } else if (!e.shiftKey && document.activeElement === lastElement) {
+          // If Tab and focused on last element, move focus to first element
+          e.preventDefault();
+          firstElement.focus();
+        }
+      };
+
       const openModal = () => {
         modalOverlay.hidden = false;
 
