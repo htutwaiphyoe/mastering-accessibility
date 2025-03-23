@@ -326,3 +326,9 @@ improving one thing for specific issues benefits to others
 - trap the tab navigation in a modal
 - last focus element back to first focus element in a modal
 - back to last focus element before modal open when modal closed
+- Component libraries support out of the box
+- Need manual testing, automated testing cannot know
+
+## ARIA
+
+- use to provide exceptional accessible experience
