@@ -2,7 +2,9 @@
 
 - Jon Kuperman
 
-[learn-a11y](https://github.com/jkup/learn-a11y)
+[Github](https://github.com/jkup/learn-a11y)
+
+[Website](https://learn-a11y.netlify.app/)
 
 ## Introduction
 
@@ -412,3 +414,8 @@ improving one thing for specific issues benefits to others
 
 - Adobe React Spectrum
 - Google Material Design
+
+## Accessibility Audit
+
+- screen reader looks up actual rendered DOM
+- automated + proper manual testing
