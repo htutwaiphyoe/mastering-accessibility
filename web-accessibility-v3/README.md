@@ -2,6 +2,8 @@
 
 - Jon Kuperman
 
+[learn-a11y](https://github.com/jkup/learn-a11y)
+
 ## Introduction
 
 Accessibility => a11y
@@ -372,5 +374,14 @@ improving one thing for specific issues benefits to others
 
 - aria-live has 3 politeness settings
 - assertive => interrupt whatever screen reader is doing to announce
-- polite => announce after screen reader next idles
+- polite => announce after screen reader next idles, can queue polite
 - off => not read the updates
+
+## Color Contrast
+
+- [contrast-checker](https://webaim.org/resources/contrastchecker/)
+- foreground and background colors
+- normal text, large text, non-text component
+- use simulator for different vision impairments
+- [color-accessibility](https://www.bloomberg.com/company/stories/designing-the-terminal-for-color-accessibility/)
+- color contrast checker in chrome dev tools
