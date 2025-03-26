@@ -385,3 +385,9 @@ improving one thing for specific issues benefits to others
 - use simulator for different vision impairments
 - [color-accessibility](https://www.bloomberg.com/company/stories/designing-the-terminal-for-color-accessibility/)
 - color contrast checker in chrome dev tools
+
+## Testing & Tooling
+
+- Devtools
+- CI/CD audits
+- Linters
