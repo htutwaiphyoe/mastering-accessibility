@@ -397,3 +397,8 @@ improving one thing for specific issues benefits to others
 - AXE DevTools By Deque
 - Google Lighthouse
 - Wave by WebAIM
+
+## CI/CD Audits
+
+- Axe-core by Deque
+- Lighthouse CI
