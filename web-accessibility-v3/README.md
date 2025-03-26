@@ -402,3 +402,8 @@ improving one thing for specific issues benefits to others
 
 - Axe-core by Deque
 - Lighthouse CI
+
+## Linters
+
+- eslint-plugin-jsx-a11y
+- depend on frameworks
