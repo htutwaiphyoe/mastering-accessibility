@@ -81,3 +81,18 @@
 - Technologies
 - Guidelines & Standards
 - Miscellaneous terms and acronyms
+
+## Technologies
+
+- HTML, HyperText Markup Language => Structure & Content
+- CSS, Cascading Style Sheets => Style & Presentation
+- JS, JavaScript => Interactivity, Asynchronous & Functionality
+- DOM, Document Object Model => HTML + CSS + JS
+- SVG, Scalable Vector Graphics => Icons
+- API, Application Programming Interface => Accessibility APIs
+- UA, User Agent => Default CSS & Functionality
+- AT, Assistive Technology => Hardware or Software used by people with disabilities
+- CSR, Client Side Rendering => Single Page Apps
+- Native Mobile => iOS and Android
+- Hybrid Apps => Web in iOS and Android app
+- Electron => Web in Desktop app
