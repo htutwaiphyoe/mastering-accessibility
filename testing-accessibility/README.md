@@ -104,3 +104,12 @@
 - Alternative Text
 - Accessible Forms
 - Interactivity
+
+## Inclusive & Intuitive Design
+
+- The need for accessibility before coding
+- bold visual contrast (color contract)
+- responsive text and layouts (zoom, reflow)
+- Touch targets large enough for human figures and movements
+- Obvious interactive controls
+- Opt-in motion and animation
