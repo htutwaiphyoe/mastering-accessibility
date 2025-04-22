@@ -96,3 +96,11 @@
 - Native Mobile => iOS and Android
 - Hybrid Apps => Web in iOS and Android app
 - Electron => Web in Desktop app
+
+## What makes accessible
+
+- Inclusive & Intuitive Design
+- Semantic HTML
+- Alternative Text
+- Accessible Forms
+- Interactivity
