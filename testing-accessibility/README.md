@@ -119,7 +119,13 @@
 - Headings for content hierarchy that screen readers can navigate
 - h1 to h6
 - Outline like MS word
-- one h1 per page
+- One h1 per page
 - Headings should's skip levels
 - Levels for content hierarchy, not for style and size
 - Css for styling
+
+## HTML Landmarks
+
+- Landmark element for content semantic sections
+- header, nav, main, section, article, aside, footer
+- Landmarks can be navigated
