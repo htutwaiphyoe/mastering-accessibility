@@ -129,3 +129,9 @@
 - Landmark element for content semantic sections
 - header, nav, main, section, article, aside, footer
 - Landmarks can be navigated
+
+## Semantic HTML
+
+- Provide all kinds of accessibility information for free and less work
+- ul, ol, p, button, table, figure, hr
+- Semantic elements can be navigated
