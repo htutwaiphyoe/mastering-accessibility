@@ -6,6 +6,8 @@
 
 ## Foundations
 
+[Slides](https://docs.google.com/presentation/d/1YUeaC36Ay9zqaUx_R0G02lFnsDVgSI0UoOgdt8r0ToY/edit?slide=id.p#slide=id.p)
+
 ### Introduction
 
 - To improve state of accessibility
@@ -165,3 +167,11 @@
 - Be a part of community
 - Keep passion of accessibility going
 - Sharing knowledge across the community
+
+## Design & People Skills
+
+[Slides](https://docs.google.com/presentation/d/1GiKVuxUIafj8faeE5XpclE4Efx4MtN27T_g5Utq1sLI/edit?slide=id.p#slide=id.p)
+
+### WCAG 2.2
+
+[WCAG22](https://www.w3.org/TR/WCAG22/)
