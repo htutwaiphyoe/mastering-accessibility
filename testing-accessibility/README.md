@@ -134,4 +134,11 @@
 
 - Provide all kinds of accessibility information for free and less work
 - ul, ol, p, button, table, figure, hr
-- Semantic elements can be navigated
+- Semantic elements can be navigated by collections of semantic elements
+
+## Text Alternatives
+
+- Graphic and non-text content need to be described
+- Image alt text: photo, icons [decorative](https://www.w3.org/WAI/tutorials/images/decorative/)
+- Decide decorative or non-decorative not for images
+- Time-based media: video and audio captions, audio description and sign language
