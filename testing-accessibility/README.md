@@ -150,3 +150,10 @@
 - Need label element to describe input and textarea, radio, checkbox, select
 - Custom style should not be lost accessibility
 - Error Validation patterns provide feedback to users [formvalidation](https://webaim.org/techniques/formvalidation/)
+
+## Interactivity Beyond Mouse
+
+- Any tasks mouse can do, keyboard and screen reader should also be able to do
+- Semantic elements can provide keyboard interactivity for free
+- Use tab key for keyboard navigation
+- Use JS and DOM events for more functionalities, such as focus
