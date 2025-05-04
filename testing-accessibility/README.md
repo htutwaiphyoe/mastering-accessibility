@@ -142,3 +142,11 @@
 - Image alt text: photo, icons [decorative](https://www.w3.org/WAI/tutorials/images/decorative/)
 - Decide decorative or non-decorative not for images
 - Time-based media: video and audio captions, audio description and sign language
+
+## Accessible Web Forms
+
+- Use sematic elements for form, accessibility out of the box
+- form, fieldset, legend, input, textarea
+- Need label element to describe input and textarea, radio, checkbox, select
+- Custom style should not be lost accessibility
+- Error Validation patterns provide feedback to users [formvalidation](https://webaim.org/techniques/formvalidation/)
