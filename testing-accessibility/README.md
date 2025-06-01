@@ -175,3 +175,5 @@
 ### WCAG 2.2
 
 [WCAG22](https://www.w3.org/TR/WCAG22/)
+
+[text](https://source.opennews.org/articles/motion-sick/)
